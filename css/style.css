@@ -283,3 +283,35 @@ a{text-decoration: none;}
     left: 0;
     opacity: 0;
 }
+
+
+
+@media(max-width:1700px){
+    #music section{width: 30vw; height: 30vw; bottom: -180%;}
+}
+@media(max-width:1400px){
+    #music section{width: 35vw; height: 35vw; bottom: -175%;}
+}
+@media(max-width:1200px){
+    #music section{width: 37vw; height: 37vw; bottom: -165%;}
+    .prevBtn{transform: translate(-28vw, -50%);}
+    .nextBtn{transform: translate(28vw, -50%);}
+}
+@media(max-width:1000px){
+    #music section{width: 45vw; height: 45vw; bottom: -165%;}
+    .prevBtn{transform: translate(-32vw, -50%);}
+    .nextBtn{transform: translate(32vw, -50%);}
+}
+
+@media(max-width:768px){
+    #music section{width: 60vw; height: 60vw; bottom: -170%;}
+    .prevBtn{transform: translate(-20vw, -50%); top:90%;}
+    .nextBtn{transform: translate(20vw, -50%); top:90%;}
+}
+@media(max-width:640px){
+    #music section{width: 75vw; height: 75vw; bottom: -175%;}
+}
+@media(max-width:576px){
+    #music section{bottom: -150%;}
+}
+
